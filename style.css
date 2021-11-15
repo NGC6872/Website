@@ -1,0 +1,264 @@
+#Index {
+
+    margin: 0;
+    padding: 0;
+    background: url(website_picture.JPG) no-repeat;
+    
+    height:100%;
+    width:25%;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: -200px, 0px;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.box {
+
+    width: 450px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    /*margin-top: 15%;*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    
+    font-family: 'Century Gothic', sans-serif; 
+    
+}
+
+.box-img {
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.box a{
+
+        display: inline-block;
+        line-height: 0em;
+        overflow: hidden;
+              
+}
+
+.box h1 {
+
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    
+}
+
+.box h5 {
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+
+}
+
+.box p {
+
+    text-align: justify;
+
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li {
+
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+
+.box li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+
+}
+
+.box li a:hover{
+
+    color: #b9b9b9;
+
+}
+
+.nav a{
+
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color:white;
+    font-family:'Century Gothic', sans-serif;
+    
+}
+
+.nav a:hover{
+
+    color:lightskyblue;
+    text-decoration: underline;
+    
+    text-underline-position: under
+
+}
+
+.nav{
+
+    
+    background-color:transparent;
+    
+}
+
+.navbar {
+
+    right: -1400px;
+    width: 450px;
+
+}
+
+#Projects {
+
+    background-image: url('./7.jpg');
+    background-repeat: no-repeat;
+    /*padding: 30px 0px;*/
+
+    
+    background-size:cover;
+}
+
+#Projects h1 {
+
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 5px;
+
+
+}
+
+#About {
+    
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    
+    height:100%;
+    width:25%;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: -200px, 0px;
+    background-repeat: no-repeat;
+
+}
+
+#About a {
+
+    color:lightskyblue;
+
+}
+
+.AboutMe {
+
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.AboutMe img {
+
+    width:1250px; 
+    height:auto;
+
+
+}
+
+.AboutMe p {
+
+    font-family:'Century Gothic', sans-serif;
+    padding-top: 25px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Paragraph {
+
+    font-family:'Century Gothic', sans-serif;
+    padding-top: 25px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: justify;
+    width: 800px;
+    
+}
+
+.title {
+
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+.title p {
+
+    font-size: 18px;
+
+
+}
+
+.card-body {
+
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+
+}
+
+.card {
+
+    margin: 20px 10px;
+
+}
+
+.card-body a {
+
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+
+}
+
+.card-body a:hover {
+
+    color: #63a6b0;
+    text-decoration: none;
+
+}
