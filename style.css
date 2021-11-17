@@ -78,15 +78,15 @@
             
             background-attachment: fixed;
             background-size:cover;
-            background-position: -1100px, 0px;
+            background-position: -35px, 0px;
             background-repeat: no-repeat;
     
         }
     
         .box {
     
-            width: 75%;
-            height: 30%;
+            width: 50%;
+            height: 53%;
             background: rgba(0, 0, 0, 0.4);
             padding: 10px;
             padding-bottom:0px;
@@ -215,7 +215,7 @@
             
             background-attachment: fixed;
             background-size:cover;
-            background-position: -200px, 0px;
+            background-position: -830px, 0px;
             background-repeat: no-repeat;
     
         }
@@ -223,7 +223,7 @@
         .box {
     
             width: 75%;
-            height: 45%;
+            height: 35%;
             background: rgba(0, 0, 0, 0.4);
             padding: 10px;
             padding-bottom:0px;
