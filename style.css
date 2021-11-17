@@ -1,5 +1,12 @@
-@media screen and (max-width: 375px) {
-    /* comes into effect for screens less than or equal to 375 pixels */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
     #Index {
 
         margin: 0;
@@ -133,13 +140,17 @@
         text-align:center;
     }
 
-  }
-  
-  @media screen and (min-width: 376px) and (max-width: 480px) {
-    /* comes into effect for screens between 375 and 480 pixels (inclusive) */
-  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
     #Index {
-    
+
         margin: 0;
         padding: 0;
         background: url(website_picture.JPG) no-repeat;
@@ -148,13 +159,14 @@
         
         background-attachment: fixed;
         background-size:cover;
-        background-position: -950px, 0px;
+        background-position: -1100px, 0px;
         background-repeat: no-repeat;
+
     }
 
     .box {
 
-        width: 50%;
+        width: 75%;
         height: 30%;
         background: rgba(0, 0, 0, 0.4);
         padding: 10px;
@@ -194,16 +206,16 @@
     .box h5 {
     
         font-size: 15px;
-        letter-spacing:2px;
+        letter-spacing: 2px;
         font-weight: 100;
     
     }
     
     .box p {
     
-        font-size:12px;
+        font-size:13px;
         text-align: justify;
-        
+        letter-spacing:0px;
     }
     
     ul {
@@ -244,7 +256,7 @@
         color:white;
         font-family:'Century Gothic', sans-serif;
         text-align:center;
-
+        
     }
     
     .nav a:hover {
@@ -256,47 +268,51 @@
     
     }
     
-    .nav {
+    .nav{
     
         background-color:transparent;
         text-align:center;
-
     }
     
     .navbar {
     
+        /*right: -1400px;*/
         width: 100%;
         margin:auto;
         text-align:center;
-       
     }
 
-  }
+}
 
-  @media screen and (min-width: 481px) {
-    /* comes into effect for screens larger than or equal to 481 pixels */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
     #Index {
-    
+
         margin: 0;
         padding: 0;
         background: url(website_picture.JPG) no-repeat;
         
         height:100%;
-        width:100%;
-
+        
         background-attachment: fixed;
         background-size:cover;
-        background-position: -400px, 0px;
+        background-position: -1100px, 0px;
         background-repeat: no-repeat;
+
     }
 
     .box {
 
-        width: 450px;
-        height: 320px;
+        width: 75%;
+        height: 30%;
         background: rgba(0, 0, 0, 0.4);
-        padding: 40px;
-        
+        padding: 10px;
+        padding-bottom:0px;
         text-align: center;
         margin: auto;
         /*margin-top: 15%;*/
@@ -313,15 +329,7 @@
         
     }
 
-    /*.box-img {
-
-        border-radius:50%;
-        width:200px;
-        height:200px;
-
-    }*/
-
-    .box a {
+    .box a{
     
             display: inline-block;
             line-height: 0em;
@@ -331,16 +339,16 @@
     
     .box h1 {
     
-        font-size: 40px;
-        letter-spacing: 4px;
+        font-size: 30px;
+        letter-spacing: 2px;
         font-weight: 100;
         
     }
     
     .box h5 {
     
-        font-size: 20px;
-        letter-spacing: 3px;
+        font-size: 15px;
+        letter-spacing: 2px;
         font-weight: 100;
     
     }
@@ -362,9 +370,8 @@
     .box li {
     
         display: inline-block;
-        margin: 6px;
+        margin: 2px;
         list-style: none;
-        
     
     }
     
@@ -372,7 +379,7 @@
     
         color: white;
         text-decoration: none;
-        font-size: 60px;
+        font-size: 5px;
         transition: all ease-in-out 250ms;
     
     }
@@ -385,7 +392,7 @@
 
     .nav a {
 
-        font-size: 30px;
+        font-size: 20px;
         letter-spacing: 4px;
         font-weight: 100;
         color:white;
@@ -417,116 +424,858 @@
         text-align:center;
     }
 
-  }
-
-#Projects {
-
-    background-image: url('./7.jpg');
-    background-repeat: no-repeat;
-    /*padding: 30px 0px;*/
-    width:100%;
-    height:100%;
-    background-size:cover;
 }
 
-#Projects h1 {
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-    font-weight: 900;
-    font-size: 34px;
-    padding-bottom: 5px;
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
+    #Index {
 
-}
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
 
-#About {
+    }
+
+    .box {
+
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
     
-    background-color: white;
-    margin: 0;
-    padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
     
-    height:100%;
-    width:100%;
-    background-attachment: fixed;
-    background-size:cover;
-    background-position: -200px, 0px;
-    background-repeat: no-repeat;
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
 }
 
-#About a {
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
-    color:lightskyblue;
+    #Index {
+
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
+
+    }
+
+    .box {
+
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
 }
 
-.AboutMe {
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
 
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    max-width:50%;
-    max-height:50%;
+    #Index {
+
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
+
+    }
+
+    .box {
+
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
+
 }
 
-.AboutMe img {
+/* ----------- iPhone X ----------- */
 
-    max-width:100%;
-    max-height:100%;
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    #Index {
+
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
+
+    }
+
+    .box {
+
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
 }
 
-.AboutMe p {
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
-    font-family:'Century Gothic', sans-serif;
-    padding-top: 25px;
-    font-size: 100%;
-    font-weight: 600;
-    text-align: justify;
-    width: 75%;
-    height:100%;
+    #Index {
+
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
+
+    }
+
+    .box {
+
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
+
 }
 
-.title {
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
 
-    text-align: center;
-    padding: 25px 0px;
+    #Index {
 
-}
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
 
-.title p {
+    }
 
-    font-size: 18px;
+    .box {
 
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
 
-}
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
 
-.card-body {
+    .nav a {
 
-    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
-
-}
-
-.card {
-
-    margin: 20px 10px;
-
-}
-
-.card-body a {
-
-    color: #0c7f90;
-    text-decoration: none;
-    font-size: 15px;
-    margin-top: auto;
-    font-weight: 600;
-
-}
-
-.card-body a:hover {
-
-    color: #63a6b0;
-    text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
 }
