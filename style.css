@@ -1,146 +1,421 @@
-#Index {
-
-    margin: 0;
-    padding: 0;
-    background: url(website_picture.JPG) no-repeat;
+@media screen and (max-width: 375px) {
+    /* comes into effect for screens less than or equal to 375 pixels */
+    #Index {
     
-    height:100%;
-    width:25%;
-    background-attachment: fixed;
-    background-size:cover;
-    background-position: -200px, 0px;
-    background-repeat: no-repeat;
-}
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
+    }
 
-.wrapper{
+    .box {
 
-    width: 1100px;
-    margin: 0 auto;
-
-}
-
-.box {
-
-    width: 450px;
-    height: 320px;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
-    text-align: center;
-    margin: auto;
-    /*margin-top: 15%;*/
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
     
-    color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
     
-    font-family: 'Century Gothic', sans-serif; 
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
     
-}
-
-.box-img {
-
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-
-}
-
-.box a{
-
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
         display: inline-block;
-        line-height: 0em;
-        overflow: hidden;
-              
-}
-
-.box h1 {
-
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
+        margin: 2px;
+        list-style: none;
     
-}
-
-.box h5 {
-
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-
-}
-
-.box p {
-
-    text-align: justify;
-
-}
-
-ul {
-
-    margin: 0;
-    padding: 0;
-
-}
-
-.box li {
-
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-
-}
-
-.box li a {
-
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-
-}
-
-.box li a:hover{
-
-    color: #b9b9b9;
-
-}
-
-.nav a{
-
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-weight: 100;
-    color:white;
-    font-family:'Century Gothic', sans-serif;
+    }
     
-}
-
-.nav a:hover{
-
-    color:lightskyblue;
-    text-decoration: underline;
+    .box li a {
     
-    text-underline-position: under
-
-}
-
-.nav{
-
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
     
-    background-color:transparent;
+    }
     
-}
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
 
-.navbar {
+    .nav a {
 
-    right: -1400px;
-    width: 450px;
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
-}
+  }
+  
+  @media screen and (min-width: 376px) and (max-width: 480px) {
+    /* comes into effect for screens between 375 and 480 pixels (inclusive) */
+  
+    #Index {
+    
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -950px, 0px;
+        background-repeat: no-repeat;
+    }
+
+    .box {
+
+        width: 50%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing:2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:12px;
+        text-align: justify;
+        
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav {
+    
+        background-color:transparent;
+        text-align:center;
+
+    }
+    
+    .navbar {
+    
+        width: 100%;
+        margin:auto;
+        text-align:center;
+       
+    }
+
+  }
+
+  @media screen and (min-width: 481px) {
+    /* comes into effect for screens larger than or equal to 481 pixels */
+    #Index {
+    
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -400px, 0px;
+        background-repeat: no-repeat;
+    }
+
+    .box {
+
+        width: 450px;
+        height: 320px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+
+    .box-img {
+
+        border-radius:50%;
+        width:200px;
+        height:200px;
+
+    }
+
+    .box a{
+    
+
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 60px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+
+    .nav a {
+
+        font-size: 30px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
+
+  }
 
 #Projects {
 
@@ -186,16 +461,16 @@ ul {
 
     
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: 55%;
+    left: 40%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    
+    width:50%;
 }
 
 .AboutMe img {
 
-    width:1250px; 
+    width:50%; 
     height:auto;
 
 
@@ -207,17 +482,8 @@ ul {
     padding-top: 25px;
     font-size: 35px;
     font-weight: 600;
-}
-
-.Paragraph {
-
-    font-family:'Century Gothic', sans-serif;
-    padding-top: 25px;
-    font-size: 35px;
-    font-weight: 600;
     text-align: justify;
-    width: 800px;
-    
+    width: 75%;
 }
 
 .title {
