@@ -5,17 +5,12 @@
 
         #Index {
 
-            margin: 0;
-            padding: 0;
-            background: url(website_picture.JPG) no-repeat;
-            
-            height:100%;
-            
-            background-attachment: fixed;
-            background-size:cover;
-            background-position: -1100px, 0px;
+            background-image: url(website_picture.JPG);
+            background-position: center center; 
+            background-size: cover;
             background-repeat: no-repeat;
-    
+            background-attachment: fixed;
+
         }
     
         .box {
