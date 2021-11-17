@@ -204,7 +204,7 @@
     }
     
     @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-        
+
         #Index {
 
             margin: 0;
@@ -215,7 +215,7 @@
             
             background-attachment: fixed;
             background-size:cover;
-            background-position: -1100px, 0px;
+            background-position: -900px, 0px;
             background-repeat: no-repeat;
     
         }
@@ -223,7 +223,7 @@
         .box {
     
             width: 75%;
-            height: 30%;
+            height: 45%;
             background: rgba(0, 0, 0, 0.4);
             padding: 10px;
             padding-bottom:0px;
