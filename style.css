@@ -136,17 +136,276 @@ ul {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
+    #Index {
+
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
     
+    }
+    
+    .box {
+    
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+    
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+    
+    .nav a {
+    
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+    #Index {
 
-
-
-
+        margin: 0;
+        padding: 0;
+        background: url(website_picture.JPG) no-repeat;
+        
+        height:100%;
+        
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: -1100px, 0px;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .box {
+    
+        width: 75%;
+        height: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        padding-bottom:0px;
+        text-align: center;
+        margin: auto;
+        /*margin-top: 15%;*/
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        color: white;
+        
+        font-family: 'Century Gothic', sans-serif; 
+        
+    }
+    
+    .box a{
+    
+            display: inline-block;
+            line-height: 0em;
+            overflow: hidden;
+                  
+    }
+    
+    .box h1 {
+    
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 100;
+        
+    }
+    
+    .box h5 {
+    
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    
+    }
+    
+    .box p {
+    
+        font-size:13px;
+        text-align: justify;
+        letter-spacing:0px;
+    }
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        text-align:center;
+    }
+    
+    .box li {
+    
+        display: inline-block;
+        margin: 2px;
+        list-style: none;
+    
+    }
+    
+    .box li a {
+    
+        color: white;
+        text-decoration: none;
+        font-size: 5px;
+        transition: all ease-in-out 250ms;
+    
+    }
+    
+    .box li a:hover{
+    
+        color: #b9b9b9;
+    
+    }
+    
+    .nav a {
+    
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        color:white;
+        font-family:'Century Gothic', sans-serif;
+        text-align:center;
+        
+    }
+    
+    .nav a:hover {
+    
+        color:lightskyblue;
+        text-decoration: underline;
+        
+        text-underline-position: under
+    
+    }
+    
+    .nav{
+    
+        background-color:transparent;
+        text-align:center;
+    }
+    
+    .navbar {
+    
+        /*right: -1400px;*/
+        width: 100%;
+        margin:auto;
+        text-align:center;
+    }
 
 }
 
