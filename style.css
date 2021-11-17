@@ -1,1281 +1,160 @@
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+#Index {
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-    #Index {
-
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
-
-    }
-
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
+    margin: 0;
+    padding: 0;
+    background: url(website_picture.JPG) no-repeat;
     
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
+    height:100%;
     
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: -1100px, 0px;
+    background-repeat: no-repeat;
 
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+.box {
 
-    #Index {
+    width: 75%;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    padding-bottom:0px;
+    text-align: center;
+    margin: auto;
+    /*margin-top: 15%;*/
 
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    
+    font-family: 'Century Gothic', sans-serif; 
+    
+}
 
-    }
+.box a{
 
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
         display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
+        line-height: 0em;
+        overflow: hidden;
+              
+}
 
-    .nav a {
+.box h1 {
 
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
     
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
+}
+
+.box h5 {
+
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
 
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+.box p {
 
-    #Index {
+    font-size:13px;
+    text-align: justify;
+    letter-spacing:0px;
+}
 
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
+ul {
 
-    }
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
 
-    .box {
+.box li {
 
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
+    display: inline-block;
+    margin: 2px;
+    list-style: none;
 
 }
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+.box li a {
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    #Index {
-
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
-
-    }
-
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
+    color: white;
+    text-decoration: none;
+    font-size: 5px;
+    transition: all ease-in-out 250ms;
 
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+.box li a:hover{
 
-    #Index {
-
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
-
-    }
-
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
+    color: #b9b9b9;
 
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+.nav a {
 
-    #Index {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color:white;
+    font-family:'Century Gothic', sans-serif;
+    text-align:center;
+    
+}
 
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
+.nav a:hover {
 
-    }
-
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
+    color:lightskyblue;
+    text-decoration: underline;
     
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
+    text-underline-position: under
 
 }
 
-/* ----------- iPhone X ----------- */
+.nav{
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+    background-color:transparent;
+    text-align:center;
+}
 
-    #Index {
+.navbar {
 
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
+    /*right: -1400px;*/
+    width: 100%;
+    margin:auto;
+    text-align:center;
+}
 
-    }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
 
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
     
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
 
 }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
 
-    #Index {
 
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
 
-    }
 
-    .box {
 
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
 
 }
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
 
-    #Index {
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
 
-        margin: 0;
-        padding: 0;
-        background: url(website_picture.JPG) no-repeat;
-        
-        height:100%;
-        
-        background-attachment: fixed;
-        background-size:cover;
-        background-position: -1100px, 0px;
-        background-repeat: no-repeat;
-
-    }
-
-    .box {
-
-        width: 75%;
-        height: 30%;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px;
-        padding-bottom:0px;
-        text-align: center;
-        margin: auto;
-        /*margin-top: 15%;*/
-    
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        
-        color: white;
-        
-        font-family: 'Century Gothic', sans-serif; 
-        
-    }
-
-    .box a{
-    
-            display: inline-block;
-            line-height: 0em;
-            overflow: hidden;
-                  
-    }
-    
-    .box h1 {
-    
-        font-size: 30px;
-        letter-spacing: 2px;
-        font-weight: 100;
-        
-    }
-    
-    .box h5 {
-    
-        font-size: 15px;
-        letter-spacing: 2px;
-        font-weight: 100;
-    
-    }
-    
-    .box p {
-    
-        font-size:13px;
-        text-align: justify;
-        letter-spacing:0px;
-    }
-    
-    ul {
-    
-        margin: 0;
-        padding: 0;
-        text-align:center;
-    }
-    
-    .box li {
-    
-        display: inline-block;
-        margin: 2px;
-        list-style: none;
-    
-    }
-    
-    .box li a {
-    
-        color: white;
-        text-decoration: none;
-        font-size: 5px;
-        transition: all ease-in-out 250ms;
-    
-    }
-    
-    .box li a:hover{
-    
-        color: #b9b9b9;
-    
-    }
-
-    .nav a {
-
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: 100;
-        color:white;
-        font-family:'Century Gothic', sans-serif;
-        text-align:center;
-        
-    }
-    
-    .nav a:hover {
-    
-        color:lightskyblue;
-        text-decoration: underline;
-        
-        text-underline-position: under
-    
-    }
-    
-    .nav{
-    
-        background-color:transparent;
-        text-align:center;
-    }
-    
-    .navbar {
-    
-        /*right: -1400px;*/
-        width: 100%;
-        margin:auto;
-        text-align:center;
-    }
-
-}
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
