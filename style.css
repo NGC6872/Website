@@ -51,7 +51,7 @@
     font-size: 30px;
     letter-spacing: 2px;
     font-weight: 100;
-    
+    padding-top:15%;
 }
 
 .box h5 {
@@ -168,6 +168,8 @@ ul {
 
     }
 
+   
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -205,10 +207,7 @@ ul {
         
     }
 
-    .box h1 {
-
-        padding-top: 40px;
-    }
+   
 
 }
 
