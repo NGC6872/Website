@@ -158,6 +158,49 @@ ul {
     
 
 }
+
+.card-body {
+
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+
+}
+
+.card {
+
+    margin: 20px 10px;
+
+}
+
+.card-body a {
+
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+
+}
+
+.card-body a:hover {
+
+    color: #63a6b0;
+    text-decoration: none;
+
+}
+
+.title {
+
+    text-align: center;
+    padding: 25px 0px;
+
+}
+
+.title p {
+
+    font-size: 18px;
+
+
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
@@ -227,6 +270,12 @@ ul {
         
         font-family: 'Century Gothic', sans-serif; 
         
+    }
+
+    .box h1 {
+
+        padding-top:35px;
+
     }
 
 }
