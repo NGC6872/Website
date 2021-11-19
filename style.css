@@ -16,6 +16,8 @@
     background-repeat: no-repeat;
     background-position:center;
     
+    background-image: url("website_picture.JPG"); 
+    height: 100vh;
 
 }
 
