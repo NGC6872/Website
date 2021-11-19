@@ -10,11 +10,20 @@
     
 }
 
+#About {
+
+        margin: 0;
+        padding: 0;
+        
+        height:100%;
+
+}
+
 .image {
 
     background-size:cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:right;
     
     background-image: url("website_picture.JPG"); 
     height: 100vh;
@@ -59,6 +68,37 @@
 
 
 }
+
+#AboutMe {
+
+    max-width: 50%;
+    max-height: 50%;
+    
+    margin-right:auto;
+    margin-left:auto;
+    
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+   
+    
+    font-family: 'Century Gothic', sans-serif; 
+
+}
+
+
+#AboutMe p {
+
+    padding: 10px;
+    padding-left: 0px;
+
+
+}
+
 
 .nav a {
     
